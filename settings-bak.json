@@ -1,0 +1,46 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "env": {
+    "DISABLE_TELEMETRY": "1",
+    "DISABLE_ERROR_REPORTING": "1",
+    "CLAUDE_CODE_DISABLE_NONESSENTIAL_TRAFFIC": "1",
+    "MCP_TIMEOUT": "60000",
+    "ANTHROPIC_AUTH_TOKEN": "cr_5ecadeb356ef6efe61d46e5fce4a9f4a5752a8c095adbe8e9c8e8c8c8902508d",
+    "ANTHROPIC_BASE_URL": "http://13.114.232.205:3000/api"
+  },
+  "includeCoAuthoredBy": false,
+  "permissions": {
+    "allow": [
+      "Bash",
+      "BashOutput",
+      "Edit",
+      "Glob",
+      "Grep",
+      "KillShell",
+      "NotebookEdit",
+      "Read",
+      "SlashCommand",
+      "Task",
+      "TodoWrite",
+      "WebFetch",
+      "WebSearch",
+      "Write",
+      "mcp__ide",
+      "mcp__exa",
+      "mcp__context7",
+      "mcp__mcp-deepwiki",
+      "mcp__Playwright",
+      "mcp__spec-workflow",
+      "mcp__open-websearch",
+      "mcp__serena"
+    ],
+    "deny": []
+  },
+  "hooks": {},
+  "outputStyle": "engineer-professional",
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/ccline/ccline",
+    "padding": 0
+  }
+}

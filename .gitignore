@@ -1,0 +1,19 @@
+# Runtime & cache
+history.jsonl
+debug/
+cache/
+stats-cache.json
+statsig/
+telemetry/
+shell-snapshots/
+session-env/
+paste-cache/
+file-history/
+plans/
+todos/
+local/
+backup/
+ide/
+projects/
+plugins/marketplaces/claude-plugins-official/
+ccline/ccline

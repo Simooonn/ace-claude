@@ -1,0 +1,45 @@
+{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "cr_5ecadeb356ef6efe61d46e5fce4a9f4a5752a8c095adbe8e9c8e8c8c8902508d",
+    "ANTHROPIC_BASE_URL": "http://13.114.232.205:3000/api"
+  },
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "mcp__exa__web_search_exa",
+      "mcp__open-websearch__search",
+      "WebSearch",
+      "WebFetch(domain:*)",
+      "Bash(git *)",
+      "Bash(grep *)",
+      "Bash(rg *)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(find *)",
+      "Bash(pwd)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(wc *)",
+      "Bash(which *)",
+      "Bash(echo *)",
+      "Bash(npm *)",
+      "Bash(node *)",
+      "Bash(php *)",
+      "Bash(composer *)",
+      "Bash(git commit:*)",
+      "Bash(git push:*)",
+      "Bash(npx *)",
+      "Bash(xargs:*)"
+    ]
+  },
+  "model": "opus",
+  "statusLine": {
+    "type": "command",
+    "command": "~/.claude/ccline/ccline",
+    "padding": 0
+  },
+  "enabledPlugins": {
+    "gopls-lsp@claude-plugins-official": true
+  },
+  "alwaysThinkingEnabled": true
+}
